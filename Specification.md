@@ -1,8 +1,6 @@
-#Specification for Modular *LEGO*® Tabletop Role-Playing Game Dungeons
+# Specification for Modular *LEGO*® Tabletop Role-Playing Game Dungeons
 
-[ToC]
-
-##Rationale
+## Rationale
 
 * LEGO is fun
     * easy to create custom, detailed environments with LEGO primitives
@@ -20,7 +18,7 @@
         * dedicated room connector pieces
 * set up reasonable section interface standard so sections designed by various people can connect most of the time
 
-##Terminology
+## Terminology
 
 |  |  |
 |---|---|
@@ -54,7 +52,7 @@
 
 ![](media/minifigure.png)
 
-##Dimensions
+## Dimensions
 
 * based on 4x4 stud tiles = game tiles
 * standard modular section is 16x16 studs, abut directly with no separator
@@ -63,7 +61,7 @@
 
 ![](media/3_base_sizes.png)
 
-##Base Construction
+## Base Construction
 
 * few specific parts required as long as interface matches
 * full-size is 16x16, so used for reference
@@ -85,21 +83,21 @@
 * corners are constructed with 1 x 1 round bricks to assist in separation — e.g. insert a screwdriver or other prying tool
 * interior construction is unspecified
 
-##Game Tile Layout
+## Game Tile Layout
 
 * squares shifted 50%
     * 2 stud border so spaces align with walls
     * with alternating grid, light/dark squares match up regardless of rotation
     * there is a "center" game tile of every section or collection of sections
 
-##Walls
+## Walls
 
 * walls are not a modular section separate from base
 * outer 2 studs of base considered "potential wall section"
 * allows space for actual wall as well as relief decorations
 * walls back-to-back ends up with 4-stud depth — one game tile
 
-###Overlapping Walls
+### Overlapping Walls
 
 * "splitting" unsplittable parts
     * e.g. pillars made with `Brick 2 x 2 Round (3941)` or decorations using `Brick 2 x 2 x 3 with Lion's Head Carving and Cutout (30274)`
@@ -107,32 +105,32 @@
     * compatibility matters less with sub-sections designed to build bigger rooms
     * helps make seamless walls in that case
 
-##Ceilings
+## Ceilings
 
 * try not to get in the way of placing Minifigures and other objects
 * avoid overhangs
 * overhangs should extend over game tiles no more than 2 studs past walls
 * archways and other doorways are an exception
 
-##Elevation Changes
+## Elevation Changes
 
 * stairs, ramps, hillocks, etc.
 * should have section connectors all around base; optional but encouraged on side of elevation change
 * additional section connectors at floor/ground level on side of elevation change
 * shim connecting sections with bricks and tiles as-needed to reach elevation difference
 
-##Stacking
+## Stacking
 
 * attach upper sections by 2-12 studs
 * probably not a great idea in most cases, use a separate setup for each floor
 
-##Non-Standard Game Tile Arrangements
+## Non-Standard Game Tile Arrangements
 
 * outdoor areas
 * ornate entrances
 * if game tiles don't align, "where" a character is standing is at the dungeon master's discretion
 
-##Area Revelation
+## Area Revelation
 
 * secret doors
 * different floors
