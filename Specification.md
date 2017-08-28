@@ -62,7 +62,7 @@ When a specific LEGO part needs to be named, the [LDraw](http://ldraw.org/) part
 
 The entire gameplay grid is based on 4×4 stud LEGO tiles.  While these LEGO tiles are slightly larger than a standard 1"×1" TTRPG grid, they are close enough (about 32mm × 32mm or 1.26" × 1.26" ) — and the ideal size for a LEGO Minifigure.
 
-The game tiles are laid out 16 — 4×4 tiles — to a standard modular section.  This makes each section 16×16 studs.  Half sections can be constructed as 4×2 game tile sections (16×8 studs), quarter sections as 2×2 game tile sections (8×8 studs).
+Each full-sized modular section is 16×16 studs, meaning 16 (4×4) game tiles can fit on each.  Half sections can be constructed as 4×2 game tile sections (16×8 studs), quarter sections as 2×2 game tile sections (8×8 studs).
 
 All sections abut directly against each other with no separators, aligned by the quarter section.
 
