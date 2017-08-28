@@ -1,22 +1,21 @@
 # Specification for Modular *LEGO*® Tabletop Role-Playing Game Dungeons
 
-## Rationale
+## Introduction
 
-* LEGO is fun
-    * easy to create custom, detailed environments with LEGO primitives
-    * lots of minifigure pieces, easy to create characters
-* LEGO world is inherently grid-based, ideal for grid-based games
-* see: BrickQuest
-    * same:
-        * 4×4 stud tiles
-        * 2-stud width walls
-        * full tiles within walls, walls on base
-    * issues:
-        * based on baseplates ("improvement") = no stacking or variable elevation!
-        * full pin connectors may make it difficult to detach sections
-        * 12×12 stud sections can't be halved for very small sections (not a power of 2)
-        * dedicated room connector pieces
-* set up reasonable section interface standard so sections designed by various people can connect most of the time
+LEGO is fun.  It is easy to create custom, detailed environments with LEGO primitives; additionally, there is a vast array of figure parts & accessories to fit both fantastic and mundane settings.  The LEGO world is also inherently grid-based, lending itself well to similarly grid-based games.
+
+The goal of this document is to establish a reasonable standard of modular gameplay sections, constructed entirely of LEGO, for the playing of [tabletop role-playing games](https://en.wikipedia.org/wiki/Tabletop_role-playing_game), constrained by these requirements:
+
+* Make the design of modular sections as simple as possible
+* Reduce the number of specific parts required to a minimum
+* Have optional "good practice" requirements that increase the likelihood sections designed by various people can connect more-or-less seamlessly most of the time
+
+This document is not the first such attempt — see [BrickQuest by Peter F. Guenther](http://gunth.com/brickquest/).  Some elements are the same as in BrickQuest, such as the use of 4×4 [stud](#terminology) game tiles, walls 2 studs in width, and the rough arrangement of game tiles.  However this standard was developed independently, and lacks a number of perceived shortcomings in BrickQuest's design:
+
+* BrickQuest [version 2](http://gunth.com/brickquest/newmod2/modules.htm) assembles sections on LEGO baseplates, which lack stud holes on the bottom.  This precludes a [game master](https://en.wikipedia.org/wiki/Gamemaster) from using any kind of ad-hoc stacking or variable elevation in setting up a dungeon.
+* The use of [pins](#terminology) as connectors may make it difficult to detach sections.
+* The standard 12×12 stud section has surface area dedicated to walls, and cannot be halved for very small sections.
+* There are a separate class of constructs used as dedicated room connectors.
 
 ## Terminology
 
@@ -31,7 +30,9 @@
 | *section* | the basic modular building block of a dungeon |
 | *game tile* | a division of game-space on which a single character can reside |
 | *wall* | a game-space division marker through while characters typically cannot pass |
-| *Minifigure* | the standard poseable LEGO figurine, 4 *bricks* in height, about 4 studs in width, and about 2 studs in depth when not decorated with items; the standard "skin" color is yellow |
+| *Minifigure* | the standard posable LEGO figurine; when not decorated with items, 4 *bricks* in height, about 4 studs in width, and about 2 studs in depth; the standard "skin" color is yellow |
+
+When a specific LEGO part needs to be named, the [LDraw](http://ldraw.org/) part names will be used.
 
 **Examples of bricks**
 
@@ -57,48 +58,48 @@
 
 ![](media/minifigure.png)
 
-## Dimensions
+## Section Dimensions & Game Tile Layout
 
-* based on 4×4 stud tiles = game tiles
-* standard modular section is 16×16 studs, abut directly with no separator
-* half sections of 16×8 studs
-* quarter sections of 8×8 studs
+The entire gameplay grid is based on 4×4 stud LEGO tiles.  While these LEGO tiles are slightly larger than a standard 1"×1" TTRPG grid, they are close enough (about 32mm × 32mm or 1.26" × 1.26" ) — and the ideal size for a LEGO Minifigure.
+
+The game tiles are laid out 16 — 4×4 tiles — to a standard modular section.  This makes each section 16×16 studs.  Half sections can be constructed as 4×2 game tile sections (16×8 studs), quarter sections as 2×2 game tile sections (8×8 studs).
+
+All sections abut directly against each other with no separators, aligned by the quarter section.
+
+One noticeable feature of the game tile layout is that it is shifted by half a game tile (2 studs) in both directions on its plane.  This leaves a half-game-tile (2 stud) border on the surface of each regular section, which has several benefits.  One is that sections can be rotated and joined on any side; the "light" and "dark" squares will align regardless.  Another benefit is that there is always a "center" game tile on a section. Finally, as there are no separate wall sections, this 2-stud boarder is an ideal area to place walls if that section requires them — see [*Walls*](#walls).
 
 ![](media/3_base_sizes.png)
 
-## Base Construction
+## Base Construction & Interface
 
-* few specific parts required as long as interface matches
-* full-size is 16×16, so used for reference
-* section alignment uses axles for male side and pin holes for female side
-    * alignment, no attachment
-        * easy assembly/disassembly
-        * easily stay "connected" on a flat surace
-    * ½ pins' short end is a stud, so int theory allows either male or female side to substitute studs and stud holes if the section design requires
-        * ½ pins biased towards stud side, more friction
-    * don't use full pins, as there is no bias for pin to stay connected to its parent base
-    * ¾ pins have same issue as ½ pins
-* 5 tiles in height (1 brick + 2 tiles)
-    * why not 2 bricks?
-        * designed so that this is the absolute base of gameplay, reduce parts
-        * would get in the way of spacers for elevation changes
-        * feel free to add 1 tile spacers — see *Elevation Changes*
+Few specific parts are required for constructing sections bases; the only thing that matters is that the interface between sections matches.
+
+The height of a standard base is 5 tiles — 1 brick and 2 tiles.  This is to allow for a plate (not a baseplate) on the bottom to act as a building foundation, 1 brick to account for the alignment setup, and another layer of plates on top for game tiles.  A height of 5 tiles rather than an even 2 bricks was chosen to minimize the parts necessary to conform to the specification.  It is also debatable where to place the third layer of plates in a naïve base construction.  If section bases 2 bricks in height are preferred, the specification allows the addition of arbitrary-height spacers — see [*Elevation Changes*](#elevation-changes).
+
+Section alignment uses axles on one side mated to pin holes on the other.  A full 16-stud section side will have two axles and two pin holes; a half-sized 8-stud section side will have one of each.  The pins and holes are laid out as such:
 
 ![](media/16_base_side_standard.png)
 ![](media/16x16_base_top_standard.png)
 
-* examples use `Technic Brick 1 x 6 with Holes (3894)` but only the holes at either end are used
-    * left side is female
-    * right side is male
-* corners are constructed with 1×1 round bricks in the rare case leverage is needed to assist in separation — e.g. insert a screwdriver or other prying tool
-* interior construction is unspecified
+This way, full-, half-, and quarter-sized sections can be combined with ease.
 
-## Game Tile Layout
+Note that the corners are constructed with 1×1 round bricks.  This is regardless of base dimensions — whether a full-sized, quarter-sized, or some other configuration, these bricks should be placed on each convex corner.  These are to assist in section separation in the rare cases leverage is needed to assist in separation.  If a section is very delicate or somehow stuck to another, a screwdriver or other prying tool can be inserted between the round bricks.
 
-* squares shifted 50%
-    * 2 stud border so spaces align with walls
-    * with alternating grid, light/dark squares match up regardless of rotation
-    * there is a "center" game tile of every section or collection of sections
+### Construction Notes
+
+Several alternatives were considered as connectors:
+
+* Full pins offer too much resistance, making disconnecting sections difficult.  In addition, if full pins rather than pin bricks are used, there is no friction bias to keep the pin in the male side's hole, meaning some repair work may have to be done while disassembling dungeons.
+* ½ pins would appear to be ideal as their short end is a stud, meaning the pin/hole interface could be replaced with a simple stud interface if needed.  This could be done if there was a part shortage, or if an unusual design required alternate parts.  However in practice, ½ pins tend to be biased towards the *female* side; pins have a slight tolerance to allow rotation, meaning they offer less friction than a stud when attached to a pin hole.
+* ¾ pins have the same issues as both full and ½ pins.
+
+This standard opts for the use of axles rather than pins for the male side, and sections are simply aligned rather than actually attached to each other.  This improves ease of dungeon assembly and disassembly — see [*Area Revelation*](#area-revelation).  Given a reasonably-sized dungeon on a flat surface, the interlocking action between the modular sections should keep them together; if there is any doubt, a surface cover offering more friction (such as a felt or rubber game mat) can be used underneath.
+
+The use of axles and pin holes gives reasonable flexibility in constructing section bases.  Any method of providing an axle at the appropriate position and height is acceptable.  In fact, the axles need not even extend a full stud from the sides of their base, as they are only used for alignment rather than attachment.  However, at least half a stud is recommended.
+
+The interior construction of a section base is unspecified.  While an array of bricks that properly support the game tiles is suggested, the type and arrangement is up to the builder.
+
+The [examples provided](examples/) for the most part use `Technic Brick 1 x 6 with Holes (3894)` for simplicity.  It is wide enough to be used for a single male/female pair along with a simple axle pin.
 
 ## Walls
 
@@ -138,7 +139,7 @@
 
 * outdoor areas
 * ornate entrances
-* if game tiles don't align, "where" a character is standing is at the dungeon master's discretion
+* if game tiles don't align, "where" a character is standing is at the game master's discretion
 
 ## Area Revelation
 
