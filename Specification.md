@@ -103,18 +103,23 @@ The [examples provided](examples/) for the most part use `Technic Brick 1 x 6 wi
 
 ## Walls
 
-* walls are not a modular section separate from base
-* outer 2 studs of base considered "potential wall section"
-* allows space for actual wall as well as relief decorations
-* walls back-to-back ends up with 4-stud depth — one game tile
+The arrangement of game tiles on section bases is intended to permit the inclusion of walls directly on the base, rather than as a separate component.  The shifted game tile layout leaves a 2-stud-width boarder around each section; walls will typically be placed here.  Walls will more often than not be permanent fixtures of their design, are are not intended to be modular separate from their bases.
+
+Below is a simple example with two section designs (a hall and three corners) assembled, demonstrating wall thickness.  Note how a "full wall" between playable areas is actually 4 studs — this gives room for relief patterns on the walls while allowing them to also stand alone at the edge of a dungeon.
+
+![](media/wall_abutment.png)
 
 ### Overlapping Walls
 
-* "splitting" unsplittable parts
-    * e.g. pillars made with `Brick 2 x 2 Round (3941)` or decorations using `Brick 2 x 2 x 3 with Lion's Head Carving and Cutout (30274)`
-    * for compatibility with other sets, try to avoid
-    * compatibility matters less with sub-sections designed to build bigger rooms
-    * helps make seamless walls in that case
+In almost every case, a modular section should be contained entirely within the boundaries of its base.  Unfortunately, even some common LEGO pieces do not have half and quarter variants, such as `Brick 2 x 2 Round (3941)` — very useful for building pillars — and `Brick 2 x 2 x 3 with Lion's Head Carving and Cutout (30274)`.  Section creators can simply design around this by avoiding placing these pieces on section divisions.  However, these pieces are also some of the best at visually breaking up section divisions to make them appear seamless and more real.  Some times placing them elsewhere simply does not work with the creator's desired pattern.
+
+As compatibility between section sets is a goal of this standard, in general the use of overlapping patterns using these pieces should be avoided.  On the other hand, in some cases blind compatibility doesn't make sense — a palace hallway typically would not abruptly transition to an outdoor area.  A single room in a dungeon will typically consist of multiple sections designed by the same person to match a single look.  As long as discrete transition sections such as doorways are included, the use of overlapping sections within the room is probably fine.
+
+Certain construction constraints must still be placed on overlapping sections to facilitate the quick assembly and disassembly of dungeons.  Overlapping parts should not be separate elements attached after sections are aligned; rather they should be integrated with one side or another.  As sections must slide together on the axis of their pins, it is recommended to use [tiles](#terminology) on the side without the overlapping part to prevent gaps between surfaces.
+
+[Here is an example](examples#quest_builder_tomb_lairldr) that consists of quarter sections designed to be used to build up bigger rooms:
+
+![](media/unsplittable.png)
 
 ## Ceilings
 
