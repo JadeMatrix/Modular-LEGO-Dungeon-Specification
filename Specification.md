@@ -121,12 +121,19 @@ Certain construction constraints must still be placed on overlapping sections to
 
 ![](media/unsplittable.png)
 
-## Ceilings
+## Overhangs, Ceilings & Stacking
 
-* try not to get in the way of placing Minifigures and other objects
-* avoid overhangs
-* overhangs should extend over game tiles no more than 2 studs past walls
-* archways and other doorways are an exception
+Sections are not designed to have ceilings, as they would obstruct the aerial view most TTRPGs are played from and get in the way of manipulating characters and other objects.  However, sometimes the game or aesthetics require placing objects above the characters' heads.
+
+For simple aesthetic features such as an arched ceiling, merely using partial arches to suggest the shape should be sufficient.  Such overhangs should not project more than 2 studs past the walls across the game tiles, so as not to get in the way of placing and moving the characters.
+
+An exception to this is archways and other doorways.  As they are typically only 1-2 studs in depth, Minifigures can easily be placed around or underneath of them.  Using a full or partial archway or doorway is up to the section designer.  However, note that the top of sections should be level, with no doors or moving parts rising above the wall.  This is to allow for the possibility of stacking sections.
+
+![](media/overhangs.png)
+
+Stacking sections can an be used to build up large dungeons, such as entire castles.  Physically stacking sections into a full dungeon like this is probably not a good idea in most cases, as it may become difficult to remove upper sections.  In addition, a dungeon with more than 2 layers stacked on a table top may be too tall to view inside or reach.  If stacking is used, lower sections should expose only 2-12 studs to attach to the upper one; the fewer the better.  The rest of the surface should consist of tiles.
+
+Rather than physically stack a multi-layer dungeon, the playing area can be cleared and a new levels arranged as characters move between them.
 
 ## Elevation Changes
 
@@ -135,16 +142,11 @@ Certain construction constraints must still be placed on overlapping sections to
 * additional section connectors at floor/ground level on side of elevation change
 * shim connecting sections with bricks and tiles as-needed to reach elevation difference
 
-## Stacking
-
-* attach upper sections by 2-12 studs
-* probably not a great idea in most cases, use a separate setup for each floor
-
 ## Non-Standard Game Tile Arrangements
 
 * outdoor areas
 * ornate entrances
-* if game tiles don't align, "where" a character is standing is at the game master's discretion
+* if game tiles don't align, "where" a character is standing for any particular action is at the game master's discretion
 
 ## Area Revelation
 
